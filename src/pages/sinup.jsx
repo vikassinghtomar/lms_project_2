@@ -88,7 +88,7 @@ function Sinup(){
     return(
         <>
         <Homelayout>
-            <div className="relative flex items-center justify-between h-[100vh] overflow-x-auto w-100% ">
+            <div className="relative flex items-center justify-between h-[100vh] overflow-x-auto w-100% bg-white ">
                 <img src="https://img.freepik.com/vecteurs-libre/mon-illustration-concept-mot-passe_114360-4294.jpg?size=626&ext=jpg&ga=GA1.1.1894639607.1694851729&semt=ais" className="relative left-20"></img>
                 <form noValidate onSubmit={createNewAccount} className="relative right-20 flex flex-col justify-center gap-3 rounded-lg p-10 w-130 shadow-[0_0_10px_orange]">
                     <h1 className="text-center text-2xl font-bold">Registration</h1>

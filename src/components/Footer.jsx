@@ -6,7 +6,7 @@ function Footer(){
 
     return(
         <>
-           <footer className="relative flex justify-center bottom-0 bg-blue-800 align-center text-white py-5 items-center justify-between">
+           <footer className="relative flex justify-center bottom-0 bg-gradient-to-r from-rose-500 to-sky-400 align-center text-white py-5 items-center justify-between">
 
             <section className="relative left-12">
                 CopyRight@{year} All Right Reserved.
@@ -77,6 +77,9 @@ function Footer(){
               <h1 className="flex flex-row items-center relative right-20 gap-5"> Github <BsGithub className="h-9 w-6"/></h1> 
               
            </section>
+
+
+
         </>
     );
 
